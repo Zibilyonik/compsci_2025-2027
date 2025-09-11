@@ -10,51 +10,51 @@ addition = num1 + num2
 print(addition)
 
 # TODO: Calculate subtraction
-subtraction = None
+subtraction = num1 - num2
 print(subtraction)
 
 # TODO: Calculate multiplication
-multiplication = None
+multiplication = num1 * num2
 print(multiplication)
 
 # TODO: Calculate division
-division = None
+division = num1 / num2
 print(division)
 
 # TODO: Calculate floor division
-floor_division = None
+floor_division = num1 // num2
 print(floor_division)
 
 # TODO: Calculate modulus (remainder)
-modulus = None
+modulus = num2 % num1
 print(modulus)
 
 # Order of operations - what will be printed?
 result1 = 2 + 3 * 4
 result2 = (2 + 3) * 4
-print(result1)  # Write your guess as a comment
-print(result2)  # Write your guess as a comment
+print(result1)  # 16
+print(result2)  # 20
 
 # COMPARISON OPERATORS
 # Compare ages
 your_age = 16
 friend_age = 17
 
-print(your_age > friend_age)   # Are you older?
-print(your_age == friend_age)  # Same age?
+print(your_age < friend_age)   # Are you older?
+print(your_age < friend_age)  # Same age?
 print(your_age < friend_age)   # Are you younger?
 
 # TODO: Check if you are at least 16
-at_least_16 = None
+at_least_16 = num1 >= 16
 print(at_least_16)
 
 # TODO: Check if your friend is not 18
-friend_not_18 = None
+friend_not_18 = 18 != num2
 print(friend_not_18)
 
 # LOGICAL OPERATORS
 # Weather decisions
-temperature = 22
+temperature = 21
 is_raining = False
 is_weekend = True
 
@@ -63,38 +63,38 @@ can_go_beach = temperature > 20 and not is_raining
 print(can_go_beach)
 
 # TODO: Should study inside if raining OR it's a weekday
-should_study = None
+should_study = not is_weekend or is_raining
 print(should_study)
 
 # TODO: Wear jacket if cold OR raining
-wear_jacket = None
+wear_jacket = not is_raining or temperature <= 20
 print(wear_jacket)
 
 # STRING METHODS - BASIC
 # Clean up a name
-messy_name = "  bungee J. UMPERTON   "
+messy_name = "   bungee J. UMPERTON   "
 print(messy_name)
 
 #TODO: Remove spaces and fix capitalization
-clean_name = None
+clean_name = messy_name.strip().title()
 print(clean_name)
 
 # String information
-sentence = "Python programming is fun!"
+sentence = "Python programming is fun!" 
 print(len(sentence))        # Length
 print(sentence.upper())     # Uppercase
 print(sentence.lower())     # Lowercase
 
 # TODO: Count how many 'a' letters
-count_a = None
+count_a = (len("a"))
 print(count_a)
 
-# TODO: Check if starts with 'Python'
-starts_python = None
+# TODO: Check if starts with 'Python'\
+starts_python = sentence.startswith("Python")
 print(starts_python)
 
 # TODO: Check if ends with '!'
-ends_exclamation = None
+ends_exclamation = sentence.endswith("!")
 print(ends_exclamation)
 
 # STRING METHODS - REPLACING
@@ -128,27 +128,27 @@ science = 92
 english = 78
 
 #TODO: Calculate average
-average = None
+average = (math + science + english) / 3
 
-#TODO: Format student name
-formatted_student = None
+#TODO: Format
+formatted_student = student.format()
 
 print(formatted_student)
 print(average)
 
 # TODO: Check if student passed (average >= 80)
-passed = None
+passed = average >= 80
 print(passed)
 
 # String validation
 test_string = "12345"
 
 # TODO: Check if all digits
-all_digits = None
+all_digits = test_string.isdigit()
 print(all_digits)
 
 # TODO: Check if contains letters
-has_letters = None
+has_letters = test_string.isdigit() 
 print(has_letters)
 
 # CHALLENGE: Text analysis
@@ -161,3 +161,13 @@ print(word_count)
 print(char_count)
 
 # Write your guesses as comments, then run and check
+
+
+
+
+
+teenager = friend_age <= 19 and friend_age >= 13 
+print(teenager)
+
+
+

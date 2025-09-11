@@ -7,7 +7,7 @@ This is my first time teaching in a school (most of my teaching experience is fr
 
 ## What To Expect
 
-We'll be starting from the scratch and gradually build up to more complex topics as the year progresses. There will be a few computer games that I'll recommend for you to play to improve your computational thinking, problem solving, and programming skills. I'll also try to get you free Steam keys for some of these games, but can't promise anything since it'll be based on the cooperation of the game developers.
+We'll be starting from the scratch and gradually build up to more complex topics as the year progresses. There will be a few computer games that I'll recommend for you to play to improve your computational thinking, problem solving, and programming skills. I'll also try to get you free Steam keys for some of these games, but can't promise anything since it'll be based on the cooperation of the game developers.`x
 
 **A starter list of games:**
 
