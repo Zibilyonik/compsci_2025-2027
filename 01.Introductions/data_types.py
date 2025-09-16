@@ -37,6 +37,7 @@ number3 = num1 % 3
 
 nothing = number2 and number3 == 0 
 if nothing == 0:
-    print:("true")
-else
-    print:("false")
+    print("true")
+else:
+    print("false")
+
