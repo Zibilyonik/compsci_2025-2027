@@ -11,10 +11,10 @@ You can think of operators as mathematical symbols that perform calculations or 
 There are several types of operators in Python, including:
 
 - Arithmetic operators: `+`, `-`, `*`, `/`, `%`, `**`, `//`
-1. `%` - module percentage (125%3=2)
+1. `%` - modulus, the ;eftover of division (125%3=2)
 2. `**` - power (6**3=216)
 3. `//` - floor devision - rounded devision to the nearest integer (1225//3=31)
-- Comparison operators: `==`, `!=`, `>`, `<`, `>=`, `<=`
+- Comparison operators: gives true or false (bool) `==`, `!=`, `>`, `<`, `>=`, `<=`
 1. `==` - equal sign 
 2. `!=` - not equals
 3. `>`- greater (bool - t/f)

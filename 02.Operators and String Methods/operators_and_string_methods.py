@@ -150,7 +150,7 @@ print(formatted_student)
 print(average)
 
 # TODO: Check if student passed (average >= 80)
-passed = averahege >= 80
+passed = average>=80
 print(passed)
 
 # String validation
@@ -174,3 +174,5 @@ print(word_count)
 print(char_count)
 
 # Write your guesses as comments, then run and check
+#4 (cuz it splitted it into 4 words)
+#19 (cuz it counted all the characters including spaces)
