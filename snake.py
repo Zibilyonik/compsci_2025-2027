@@ -12,3 +12,4 @@ def snake():
     print(body)
     
 snake()
+22
