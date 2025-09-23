@@ -1,0 +1,23 @@
+    
+
+def discount(price):
+    total_cost = 0.2 * price
+    return(total_cost) 
+
+def membership_status(paid):
+    if paid == True:
+        return True
+    else:
+        return False
+    
+def entry(Exists):
+    price = Exists
+    if membership_status(True):
+        discount_cost = discount(price)
+        price = Exists - discount_cost
+    return price
+
+membership_status = input("you good on the yearly membership?")
+
+def memberandgoal(Exists, membership_status):
+    print(discount(membership_status))
