@@ -63,3 +63,12 @@ MORE IMPORTANT: String methods do not modify the original string. Instead, they 
 
 You can find a complete list of string methods in Python in W3Schools' [Python String Methods](https://www.w3schools.com/python/python_strings_methods.asp) page.
 
+int(input()) -- ask input from user in numbers
+
+- Conditionals
+1. Condition do this 
+2. If, retun, not , else
+
+- Multiple outcomes ex:(T,F . F,T . F,F . T,T)
+
+- Scope

@@ -8,8 +8,8 @@ if float(input_value)>1000:
     print("you have a discount")
    
 
-# percent="1.5"
-# percent2="1.1"
+percent="1.5"
+percent2="1.1"
 discounted_value1= float(input_value)/1.5
 discounted_value2= float(input_value)/1.1
 discounted_value3= (((float(input_value))/1.1)/1.5)
@@ -25,19 +25,9 @@ else : print("Run again and input correct value of True or False")
 
 if store_member==True and float(input_value)<1000:
     print("your total cost is", discounted_value1)
-    
-if store_member==True and float(input_value)>1000:
+elif store_member==True and float(input_value)>1000:
     print("your total cost is:", discounted_value3)
-
-if store_member==False and float(input_value)<1000:
+elif store_member==False and float(input_value)<1000:
     print("your total cost is:", input_value)
-
-if store_member==False and float(input_value)>1000:
+elif store_member==False and float(input_value)>1000:
     print("your total cost is:", discounted_value2)
-    
-   
-
-
-
-
-    
