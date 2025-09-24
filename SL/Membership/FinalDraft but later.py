@@ -25,3 +25,4 @@ def total_cost(price):
 print(total_cost(int(input("gimme the price"))))
 
 
+
