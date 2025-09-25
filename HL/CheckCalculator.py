@@ -1,41 +1,51 @@
 
-FoodPriceCalc = 0
 FullPrice = 10
+FoodPriceCalc1 = 0 
+FIL = ["Burger","hot Dog","chicken","kfc","Strips"]
+Inp = "x"
+
+def FoodPrice(FoodInput): 
+    continueation = False
+    while continueation == False:
+        Inp = input("Try again")
+        if Inp in FIL:
+            continueation = True
+        else:
+            continueation = False
+
+    if continueation == True:
+
+        if FoodInput == "Burger":
+            FoodPriceCalc = 20.99
+            return FoodPriceCalc
+        elif FoodInput == "hot Dog":
+            FoodPriceCalc = 1.99 
+            return FoodPriceCalc
+        elif FoodInput == "chicken" or "kfc" or "Strips":
+            FoodPriceCalc = 15.99
+            return FoodPriceCalc
+        else:
+            continueation = False
+            return continueation
+        
 
 
-def FoodPrice(FoodInput):
-    try: 
-
-    
-    except:
-      FoodPrice = False 
-    if FoodInput == "Burger":
-        FoodPriceCalc1 += 20.99 
-        return FoodPriceCalc1
-    elif FoodInput == "hot Dog":
-        FoodPriceCalc2 += 1.99 
-        return FoodPriceCalc2
-    elif FoodInput == "chicken" or "kfc" or "Strips":
-        FoodPriceCalc3 += 15.99
-        return FoodPriceCalc3
-    
-       return FoodPrice
-while FoodPrice == False:
-    FoodPrice(input("Go again"))
-
-
+Inp = (input("What food you want"))
+Food = FoodPrice(Inp)
+FoodPriceCalc1 += Food
 def eating(now): 
-    Expense = Food + FullPrice 
-    FullPrice = Expense
+        
     if now == "yes":
         FoodPrice (input("what else do you want to eat?"))
     else: 
-        print("your total is " + FullPrice + "dollarinoes")
-
-Food = FoodPrice(input("What food you want"))
+        nuhuh = False
 
 
+    
+    while Inp in FIL:
+        eating(input("wanna continue?"))
+        
+       
 
 
-while FoodPrice == 15.99 or 1.99 or 20.99:
-    eating(input("wanna continue?"))
+        
