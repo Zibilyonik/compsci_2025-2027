@@ -30,19 +30,21 @@ def FoodPrice(FoodInput):
         
 
 
-Inp = (input("What food you want"))
+NewInp = (input("What food you want"))
 Food = FoodPrice(Inp)
 FoodPriceCalc1 += Food
+
 def eating(now): 
         
     if now == "yes":
         FoodPrice (input("what else do you want to eat?"))
     else: 
-        nuhuh = False
-
+        Inp = "BOOOOOOOMM"
+        return Inp
+NewInp = eating()
 
     
-    while Inp in FIL:
+while Inp in FIL:
         eating(input("wanna continue?"))
         
        
