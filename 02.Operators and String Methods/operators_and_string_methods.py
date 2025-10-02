@@ -72,8 +72,8 @@ print(wear_jacket)
 
 # STRING METHODS - BASIC
 # Clean up a name
-messy_name = "   bungee J. UMPERTON   "
-print(messy_name)
+messy_name = "  bungee J. UMPERTON   "
+print(messy_name.strip())
 
 #TODO: Remove spaces and fix capitalization
 clean_name = messy_name.strip().title()
