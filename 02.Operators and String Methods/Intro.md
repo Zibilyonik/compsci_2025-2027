@@ -63,12 +63,19 @@ MORE IMPORTANT: String methods do not modify the original string. Instead, they 
 
 You can find a complete list of string methods in Python in W3Schools' [Python String Methods](https://www.w3schools.com/python/python_strings_methods.asp) page.
 
-int(input()) -- ask input from user in numbers
+int(input()) -- ask input from user and convert to integer  (can be float, balh blaj)
 
 - Conditionals
 1. Condition do this 
-2. If, retun, not , else
+2. If, elif, else
 
 - Multiple outcomes ex:(T,F . F,T . F,F . T,T)
 
 - Scope
+
+- f string for printing out variables
+
+- Loops:
+1. "While" loop (until the statment is flase) - conditon (>) - updates the intial value and checks it
+2. "For" loop (we know how many loops we need) - range(number) - just loops needed amount of time
+3. Do While loop (do first check later)
