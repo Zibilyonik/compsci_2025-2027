@@ -12,18 +12,18 @@ print(type(word))
 print(type(is_sunny))
 
 # Change the values to the type shown in the comment?
-age = "15"      # Change to int
-score = 10      # Change to str
-rain = "False"  # Change to bool
-height = "1.75" # Change to float
+age = 15      # Change to int
+score = "10"      # Change to str
+rain = False  # Change to bool
+height = 1.75 # Change to float
 print(type(age))
 print(type(score))
 print(type(rain))
 print(type(height))
 
 # What will be printed?
-print(type(2 + 2))
-print(type("5" + "5"))
-print(type(3.0 + 1))
-print(type(True))
+print(type(2 + 2)) #int
+print(type("5" + "5")) #str
+print(type(3.0 + 1)) #float
+print(type(True)) #bool
 # Write your guesses as comments, then run and check
