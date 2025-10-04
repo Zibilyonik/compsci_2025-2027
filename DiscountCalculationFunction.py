@@ -33,4 +33,6 @@ def final_disocunt(basket_value, is_member):
     else:
         return basket_value
 
-        
+user_intput = float(input("Provide basket value: "))
+discount = discount_calculate(user_intput)
+print("Your discount from basket value = ",discount, " discounted basket value = ",user_intput-discount)
