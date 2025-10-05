@@ -2,7 +2,7 @@
 
 # ARITHMETIC OPERATORS
 # Practice with basic math operations
-num1 = 15
+num1 = 14
 num2 = 4
 
 # Complete the arithmetic operations
@@ -32,25 +32,25 @@ print(modulus)
 # Order of operations - what will be printed?
 result1 = 2 + 3 * 4
 result2 = (2 + 3) * 4
-print(result1)  # Write your guess as a comment
-print(result2)  # Write your guess as a comment
+print(result1)  # Write your guess as a comment 14
+print(result2)  # Write your guess as a comment 20
 
 # COMPARISON OPERATORS
 # Compare ages
 your_age = 16
 friend_age = 17
 
-print(your_age > friend_age)   # Are you older?
-print(your_age == friend_age)  # Same age?
-print(your_age < friend_age)   # Are you younger?
+print(your_age > friend_age)   # Are you older? False
+print(your_age == friend_age)  # Same age? False
+print(your_age < friend_age)   # Are you younger? True
 
 # TODO: Check if you are at least 16
-at_least_16 = your_age ==16
+at_least_16 = your_age >=16  #True
 print(at_least_16)
 
 # TODO: Check if your friend is not 18
-friend_not_18 = friend_age <18 or >18
-print(friend_not_18)
+friend_not_18 = friend_age != 18
+print("Friend is not 18: ",friend_not_18)
 
 # LOGICAL OPERATORS
 # Weather decisions
@@ -59,16 +59,16 @@ is_raining = False
 is_weekend = True
 
 # Can go to beach if warm and not raining
-can_go_beach = temperature > 20 and not is_raining
-print(can_go_beach)
+can_go_beach = (temperature > 20) and (not is_raining)
+print("Can go to beach: ",can_go_beach)
 
 # TODO: Should study inside if raining OR it's a weekday
-should_study = is_raining == True or is_weekend = False
-print(should_study)
+should_study = is_raining or (not is_weekend)
+print("Should study: ", should_study)
 
 # TODO: Wear jacket if cold OR raining
-wear_jacket = temperature < 20 and is_raining = True
-print(wear_jacket)
+wear_jacket = (temperature <= 15) or is_raining
+print("Wear jacket: ", wear_jacket)
 
 # STRING METHODS - BASIC
 # Clean up a name
@@ -128,28 +128,28 @@ science = 92
 english = 78
 
 #TODO: Calculate average
-average = None
+average = (math + science + english) / 3
 
 #TODO: Format student name
-formatted_student = None
+formatted_student = student.title()
 
 print(formatted_student)
-print(average)
+print("Average: ", average,end=" ")
 
 # TODO: Check if student passed (average >= 80)
-passed = None
-print(passed)
+passed = average >= 80
+print("Passed: ", passed)
 
 # String validation
 test_string = "12345"
 
 # TODO: Check if all digits
-all_digits = None
-print(all_digits)
+all_digits = test_string.isdigit()
+print("All digits: ", all_digits)
 
 # TODO: Check if contains letters
-has_letters = None
-print(has_letters)
+has_letters = test_string.isalpha()
+print("Has letters: ", has_letters)
 
 # CHALLENGE: Text analysis
 text = "The quick brown fox"
@@ -157,7 +157,7 @@ words = text.split()
 word_count = len(words)
 char_count = len(text)
 
-print(word_count)
-print(char_count)
+print(word_count) #4
+print(char_count) #19
 
 # Write your guesses as comments, then run and check
