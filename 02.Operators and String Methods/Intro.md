@@ -71,11 +71,28 @@ int(input()) -- ask input from user and convert to integer  (can be float, balh 
 
 - Multiple outcomes ex:(T,F . F,T . F,F . T,T)
 
-- Scope
+- Scope , local values available only within the function (variable can not be accessed outside a function)
+we can use global key word to maoe it go out of the scope of function and be accesable.
+local - enclosing - global - builtin variables
 
-- f string for printing out variables
+- f string for printing out variables ex"  print(f"hello {number}")
 
 - Loops:
 1. "While" loop (until the statment is flase) - conditon (>) - updates the intial value and checks it
 2. "For" loop (we know how many loops we need) - range(number) - just loops needed amount of time
 3. Do While loop (do first check later)
+
+
+Funtion is a block of code (def) - allows us to create a reusable block of code that we can call.(the function doesnt run unless its called) = cleaner code, reusable, specific logic
+
+agrument ex: 3 (exists when we are calling the function with an argumental value for it)
+print(ad_d(3))
+peramiter ex: x (exists inside the function definition)
+def ad_d(x):
+
+lists
+ex: 
+student1= "sally"
+student_list = ["sally", "marry", "bobby"]
+for student in student_list:
+    print student

@@ -13,9 +13,11 @@ def withdraw(amount,balance): #the updated global value=1200 so 1200 - argument 
 
 def bank_app(balance): #initial balance and  then used functions in it changing its value for each
     print("Welcome to your bank account!")
-    deposit(200,balance) 
-    withdraw(150,balance)
-    withdraw(1200,balance)
+    balance=deposit(200,balance) 
+    balance=withdraw(150,balance)
+    balance=withdraw(1200,balance)
     print("Final balance:", balance)
 
 bank_app(1000) #calls the function that calls other functions with arguments
+
+

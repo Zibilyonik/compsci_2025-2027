@@ -7,7 +7,7 @@ if input_value>1000:
     print("you have a discount")
    
 
-# percent=0.5
+# percent1=0.5
 # percent2=0.9
 discounted_value1= input_value*0.5 # 50% discount
 discounted_value2= input_value*0.9 #10% discount

@@ -1,4 +1,5 @@
 name=(input("What is your name?:"))
+name=name.capitalize()
 time=(int(input("What time is it? 0-23:")))
 time_valid= time>=0 and time<=23
 if time_valid==False:
