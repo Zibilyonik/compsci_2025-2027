@@ -61,7 +61,7 @@ while juice!="done":
     else:
         break
 
-print(f"Your total bill is{total_cost} ")
+print(f"Your total bill is {total_cost} ")
 for i in range(0, len(all_juice) ):
     print(f"You bought {all_juice[i]} juice")
     
@@ -70,15 +70,20 @@ print("Thank you for seeing my WOnderFULL code:)))))))!!!!")
 """
 What juice you want?apple
 What is the pice of the apple juice?12
+apple was added to the bill for 12.0
+There was total of 1 orders
 What juice you want?Pineapple
 What is the pice of the pineapple juice?30
-What juice you want?waTermelon
-What is the pice of the watermelon juice?15
+pineapple was added to the bill for 30.0
+There was total of 2 orders
+What juice you want?waterMaelon
+What is the pice of the watermaelon juice?10
+watermaelon was added to the bill for 10.0
+There was total of 3 orders
 What juice you want?done
-done was added to the bill for 15.0
-There was total of 3 orders:
-apple
-pineapple
-watermelon
+Your total bill is52.0 
+You bought apple juice
+You bought pineapple juice
+You bought watermaelon juice
 Thank you for seeing my WOnderFULL code:)))))))!!!!
 """
