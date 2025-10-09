@@ -1,18 +1,17 @@
 print("what is the value of your basket?")
-input_value=input("")
+input_value=float(input(""))
 
-def basket_value(input_value):
-    float(input_value)
-    return float(input_value)
-if float(input_value)>1000:
+basket_value=input_value
+print(input_value)
+if input_value>1000:
     print("you have a discount")
    
 
-# percent="1.5"
-# percent2="1.1"
-discounted_value1= float(input_value)/1.5
-discounted_value2= float(input_value)/1.1
-discounted_value3= (((float(input_value))/1.1)/1.5)
+# percent=0.5
+# percent2=0.9
+discounted_value1= input_value*0.5 # 50% discount
+discounted_value2= input_value*0.9 #10% discount
+discounted_value3= input_value*0.5*0.9 #60% discount
 
 store_member=(input("are you a store member? True or False: "))
 if store_member==("True"):
