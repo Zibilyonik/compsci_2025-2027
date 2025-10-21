@@ -49,6 +49,7 @@ bucket_juice(juice)
 price=float(input(f"What is the pice of the {juice} juice?"))
 total_cost+=price
 print(f"{juice} was added to the bill for {price}\nThere was total of {number_orders} orders")
+print(f"your total so far is {total_cost}")
 
 while juice!="done":
     juice=input("What juice you want?").lower()
@@ -58,6 +59,7 @@ while juice!="done":
         price=float(input(f"What is the pice of the {juice} juice?"))
         total_cost+=price
         print(f"{juice} was added to the bill for {price}\nThere was total of {number_orders} orders")
+        print(f"your total so far is {total_cost}")
     else:
         break
 
