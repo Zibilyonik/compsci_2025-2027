@@ -8,6 +8,55 @@ Tech_knowladgebased=["math","computer science", "geometry"]
 Humanities_Social=["business","geography","tok","history"]
 Artistic_communicational=["psychology","advisory","english","pe"]
 
+###GPT
+def diversity_groups(students):
+     all_groups=[Red,Green,White,Blue]
+     for group in all_groups:
+         hobby_duplicates=set()
+         duplicates=[]
+         for student in group:
+            for hobby in student ["hobbies"]:
+                if hobby in hobby_duplicates:
+                    duplicates.append(student)
+                else:
+                    hobby_duplicates.add(hobby)
+         for dup in duplicates:
+             moved=False
+             for target_group in all_groups:
+                 if target_group == group:
+                     continue
+                 target_hobby=set()
+                 for s in target_group:
+                     for h in s["hobbies"]:
+                        if h: target_hobby.add(h)
+                 if not any (h in target_hobby for h in dup["hobbies"] if h):
+                    group.remove(dup)
+                    target_group.append(dup)
+                    moved=True
+                    break
+                 if not moved:
+                    print(f"Could not move student {dup} from group due to hobby conflicts.")
+##CPT
+
+#2ndary approach to move duplicate students 
+def student_color1(student):
+        subs=student["subjects"]
+        tech_approach=sum(1 for s in subs if s in Tech_knowladgebased)
+        humanities_approach=sum(1 for s in subs if s in Humanities_Social)
+        artistic_approach=sum(1 for s in subs if s in Artistic_communicational)
+        mix_approach=sum(1 for s in subs if s in Tech_knowladgebased+Humanities_Social+Artistic_communicational)
+        if tech_approach>=1:
+            color="Red"
+        elif humanities_approach>=1:
+            color="Green"
+        elif artistic_approach>=1:
+            color="Blue"
+        elif mix_approach==2:
+            color="White"
+        student["group1"]=color
+        return student
+
+
 def student_color(student):
         subs=student["subjects"]
         tech_approach=sum(1 for s in subs if s in Tech_knowladgebased)
@@ -23,6 +72,7 @@ def student_color(student):
         elif mix_approach==3:
             color="White"
         student["group"]=color
+        student_color1(student)
         return student
 
 def subjects_list(name):
@@ -63,7 +113,7 @@ for s in range(group_whole):
 #        "subjects":[sub1,sub2,sub3],
 #       "hobbies": [hobby,hobby2],
 #        "learning_style": learn_style
-#    },
+#    },....
 #]
 
 
