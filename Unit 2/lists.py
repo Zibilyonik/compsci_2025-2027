@@ -7,7 +7,7 @@ def element_list1(n):
     return list1
 
 def maximum_value(list1):
-    max_v=0
+    max_v=list1[0]
     for num in list1:
         if num>max_v:
             max_v=num

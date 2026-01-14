@@ -27,12 +27,9 @@ def shopping_experience(customer):#define the whole function to later on  be anl
         items_name=input("Which item do you wanna purchase?: ")#start the same process again
     print(f"Dear {customer} your shopping is complete")#summary
     print("You bought:")
-    allitem1= len(item_all)#how many items we bough
-    if allitem1>0:
-        for items_name in item_all:#printing all items we bought
-            print(f"{items_name} item")
-    else:
-        print("You didnt buy anything.")#if we bought no items
+    #how many items we bough
+    print(*(f" {item} item " for item in item_all), sep="\n") if len(item_all)>0 else print ("You didnt buy anything.")
+
 
 
     print(f"You have {wallet} zl remaining in your wallet, and you`ve spent {total_cost}zl. \n Thank you for shopping with us!")

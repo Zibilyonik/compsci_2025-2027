@@ -96,3 +96,42 @@ student1= "sally"
 student_list = ["sally", "marry", "bobby"]
 for student in student_list:
     print student
+
+1. collection = single "variable" used to store multiple valuables
+- lists = [] #ordered and changable,duplicates
+acces - print(list[n]) - value [0:n-1] , every sencond [::2], backwards [::-1]
+for x in list: #for loop
+    print(x)
+print(dir(fruits))
+print(help(l1st_name))
+len(list_name) #put print
+print("apple" in list_name) #T/F
+list[0]=change first valye
+list.appned("c)
+list.remove("c)
+list.sort()
+fruits.reverse()
+list.clear()
+print(list.index("c))
+list.count("x)
+sum(valuesoflist)
+
+
+- set= {} #unordered, immutable ,add/remove, no duplicates
+print(dir(set))
+print(help(set))
+print(x in set)
+len(set)
+set.add()
+set.remove()
+set.pop()
+set.clear()
+
+- tuple= () #ordered and unchangable, duplicates
+print(dir(tuple))
+
+print(x in tuple)
+tuple.index(x")
+tple.count("x)
+for x in tuple:
+    print(x)
