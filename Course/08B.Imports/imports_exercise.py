@@ -92,6 +92,7 @@ print("Clamp:", my_utils.clamp(200,0,100))   # TODO
 # - Below is an example of a multi-line string:
 answer = """
 TODO: write your explanation here.
+Because system will not know which one of 2 RANDOM we are trying to import, as both of them hold different information, and located in the program simultaniojusly. Random = random , hodlding different values.
 """
 
 print(answer)

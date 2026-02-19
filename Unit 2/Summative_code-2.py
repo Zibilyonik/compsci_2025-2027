@@ -41,7 +41,7 @@ while True:
         if len(history)==0:
             print("No History available.")
         else:
-            back_song=history.pop(-2)
+            back_song=history.pop(-1)
             playlist.insert(0,back_song)
             only_name=back_song[0]
             print(f"Rewinding to: {only_name}")
