@@ -136,8 +136,6 @@ def history_view():
         print("history is empty")
     
 
-
-
 # 2. Main Game Loop
 while True:
     if random.randint(1, 10) == 1:
@@ -153,7 +151,7 @@ while True:
     
     
     choice = input("Choose an action: ")
-    turn+=1
+    
 
     
     # 3. Logic
