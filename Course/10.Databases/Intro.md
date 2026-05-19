@@ -128,7 +128,7 @@ When creating tables, you specify data types for each column:
 - **REAL**: Decimal numbers (3.14, 2.5)
 - **TEXT**: Text strings ("Alice", "Hello World")
 - **BLOB**: Binary data (images, files)
-- **DATE**: Calendar dates (2024-05-19)
+- **DATE**: Calendar dates (format: 2024-05-19 or use DATE functions)
 
 ## Constraints
 
