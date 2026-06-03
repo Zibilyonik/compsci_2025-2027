@@ -11,9 +11,11 @@
 #   2) pi rounded to 3 decimal places
 
 # TODO: write your imports here
-
+import math
+from math import sqrt
 # TODO: write your prints here
-
+print(sqrt(81))
+print(round(math.pi,3))
 
 # ---------------------------------------------------------------------------
 # PART 2 – FROM ... IMPORT ...
