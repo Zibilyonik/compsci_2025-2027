@@ -67,7 +67,7 @@ name = "IHSW"
 print(name)
 mylist = [14, 15, 17, 66, 12, 7.2] #list (ARRAY in other languages)
         #   0th,1st,2nd,    3rd,  4th, 5th
-for item in mylist:
+for item in mylist: # for every ITEM in MYLIST, do the thing in code block
     print(item+1)
 print(mylist)
 # 7 -> 6   6 -> 5         n -> n - 1
