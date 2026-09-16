@@ -76,3 +76,4 @@ print(mylist[1])
 print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
+# write a FOR loop that PRINTS every ITEM in your LIST
