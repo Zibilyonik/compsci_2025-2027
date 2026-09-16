@@ -70,3 +70,6 @@ mylist = [14, 15, 17, "hello", True, 7.2] #list (ARRAY in other languages)
 print(mylist)
 7 -> 6   6 -> 5         n -> n - 1
 # write the function calls for printing 2nd, 4th and last item
+print(mylist[1])
+print(mylist[3])
+print(mylist[5])
