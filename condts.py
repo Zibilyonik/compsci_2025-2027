@@ -75,4 +75,4 @@ print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
 username = input("Tell us your name: ")
-print("Hello " + username)
+print(f"Hello {username} this is the rest of the message")
