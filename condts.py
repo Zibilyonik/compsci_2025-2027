@@ -66,11 +66,13 @@ print(soup)
 name = "IHSW"
 print(name)
 mylist = [14, 15, 17, "hello", True, 7.2] #list (ARRAY in other languages)
-          0th,1st,2nd,    3rd,  4th, 5th
+        #   0th,1st,2nd,    3rd,  4th, 5th
 print(mylist)
-7 -> 6   6 -> 5         n -> n - 1
+# 7 -> 6   6 -> 5         n -> n - 1
 # write the function calls for printing 2nd, 4th and last item
 print(mylist[1])
 print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
+username = input("Tell us your name")
+print("Hello " + username)
