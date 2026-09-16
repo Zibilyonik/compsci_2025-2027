@@ -65,8 +65,10 @@ soup = "eat"
 print(soup)
 name = "IHSW"
 print(name)
-mylist = [14, 15, 17, "hello", True, 7.2] #list (ARRAY in other languages)
+mylist = [14, 15, 17, 66, 12, 7.2] #list (ARRAY in other languages)
         #   0th,1st,2nd,    3rd,  4th, 5th
+for item in mylist:
+    print(item+1)
 print(mylist)
 # 7 -> 6   6 -> 5         n -> n - 1
 # write the function calls for printing 2nd, 4th and last item
@@ -74,9 +76,3 @@ print(mylist[1])
 print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
-username = input("Tell us your name: ")
-print(f"Hello {username} this is the rest of the message")
-myvariable = 5
-myvariable = myvariable + 1
-myvariable += 1
-myvariable + 1
