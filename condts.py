@@ -74,5 +74,5 @@ print(mylist[1])
 print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
-username = input("Tell us your name")
+username = input("Tell us your name: ")
 print("Hello " + username)
