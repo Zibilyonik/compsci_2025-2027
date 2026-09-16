@@ -74,4 +74,3 @@ print(mylist[1])
 print(mylist[3])
 print(mylist[5])
 # if, lists, data types, conditional operator
-LOOPS
