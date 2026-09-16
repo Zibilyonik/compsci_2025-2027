@@ -62,4 +62,4 @@ if class == cancelled or feel == sick or teacher == missing:
 x = 15
 soup = "eat"
 name = "IHSW"
-
+mylist = [14, 15, 17, "hello", True, ]
